@@ -1,0 +1,4 @@
+# created by virtualenv automatically
+.venv/
+miami_server.log
+.idea
