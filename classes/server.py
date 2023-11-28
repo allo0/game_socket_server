@@ -50,7 +50,7 @@ class Server():
                     # Send initial player data using JSON
                     initial_data_json = json.dumps(player_instance.get_player_data()).encode('utf-8')
                     conn.sendall(initial_data_json)
-                    #####
+                    ######
 
                     self.connected_players[player_index].update_from_data(data)  # Update player state
 
